@@ -11,10 +11,10 @@ The bot will initially be at custom room "http://generals.io/games/abcd".
 
 The bot can only play 1v1 and it will surrender as soon as it enters a ffa or 2v2 game.
 
-If you want to push it into NA 1v1 queue, just use play(join_1v1) in console. Warning: This action will sometimes make others feel bad, so you should think carefully before doing it.
+If you want to push it into NA 1v1 queue, just use `play(join_1v1)` in console. Warning: This action will sometimes make others feel bad, so you should think carefully before doing it.
 
-When the bot is in 1v1 queue or it's in any custom rooms, use unjoin() to leave.
+When the bot is in 1v1 queue or it's in any custom rooms, use `unjoin()` to leave.
 
 When the bot is in game:
-* use Surrender() to make it surrender
-* use keep_playing = false to let it not join the 1v1 queue again (use keep_playing = true, then it will automatically join the queue again).
+* use `Surrender()` to make it surrender
+* use `keep_playing = false` to let it not join the 1v1 queue again (use `keep_playing = true`, then it will automatically join the queue again).
