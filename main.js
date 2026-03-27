@@ -70,7 +70,7 @@ let socket = io('https://ws.generals.io');
 let accounts = {
 	bot: ['SHJp5iNUk_','woshijsa'],
 };
-let [user_id, myusername] = accounts.bot, custom_game_id = 'jsahuaehx', user_idANDkey = [user_id, 'sd09fjd203i0ejwi'];
+let [user_id, myusername] = accounts.bot, custom_game_id = 'jsahuaehx', user_idANDkey = [user_id, 'sd09fjdZ03i0ejwi'];
 let chat_room, replay_url;
 let keep_playing = true, isconnected = false, game_end = true;
 let stepdelta = [[0, 1], [0, -1], [1, 0], [-1, 0]];
