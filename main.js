@@ -68,7 +68,7 @@ class Queue {
 let max = Math.max, min = Math.min, abs = Math.abs, floor = Math.floor, ceil = Math.ceil, pow = Math.pow, random = Math.random, log = Math.log, Eps = 1e-5;
 let socket = io('https://ws.generals.io');
 let accounts = {
-	bot: ['SHJp5iNUk_','woshijsa'],
+	bot: ['asudhfiou','[Bot]nimasabibc'],
 };
 let [user_id, myusername] = accounts.bot, custom_game_id = 'jsahuaehx', user_idANDkey = [user_id, 'sd09fjdZ03i0ejwi'];
 let chat_room, replay_url;
