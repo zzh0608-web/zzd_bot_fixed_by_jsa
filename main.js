@@ -66,7 +66,7 @@ class Queue {
 	}
 }	
 let max = Math.max, min = Math.min, abs = Math.abs, floor = Math.floor, ceil = Math.ceil, pow = Math.pow, random = Math.random, log = Math.log, Eps = 1e-5;
-let socket = io('https://ws.generals.io');
+let socket = io('https://bot.generals.io');
 let accounts = {
 	bot: ['asudhfiou','nimasabibc'],
 };
