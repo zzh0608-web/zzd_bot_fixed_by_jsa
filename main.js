@@ -85,7 +85,7 @@ socket.on('disconnect', function () {
 });
 socket.on('connect', function () {
 	console.log('Connected to server.');
-	socket.emit('set_username', user_id, myusername,'sd09fjd203i0ejwi');
+	socket.emit(user_id, myusername,'sd09fjd203i0ejwi');
 	isconnected = true;
 	playgames();
 });
